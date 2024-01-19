@@ -4208,6 +4208,7 @@ textarea.form-control-lg {
     z-index: 3; }
 
 .btn {
+  display: grid;
   display: inline-block;
   font-weight: 400;
   line-height: 1;
@@ -11496,8 +11497,8 @@ code {
     height: 6px; }
 
 .bg-gradient-primary {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff)) !important;
-  background: linear-gradient(to right, #da8cff, #9a55ff) !important; }
+  background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff)) !important;
+  background: linear-gradient(to right, #702DFF, #9a55ff) !important; }
 
 .bg-gradient-secondary {
   background: -webkit-gradient(linear, left top, right top, from(#e7ebf0), to(#868e96)) !important;
@@ -11850,9 +11851,9 @@ code {
       border: 1px solid #d7d7d7; }
     .purchase-popup .btn.purchase-button {
       background-color: rgba(172, 50, 228, 0.9);
-      background-image: -owg-linear-gradient(to right, #da8cff, #9a55ff);
-      background-image: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-      background-image: linear-gradient(to right, #da8cff, #9a55ff);
+      background-image: -owg-linear-gradient(to right, #702DFF, #9a55ff);
+      background-image: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+      background-image: linear-gradient(to right, #702DFF, #9a55ff);
       color: #ffffff;
       border: none;
       line-height: 1;
@@ -11926,8 +11927,8 @@ code {
 
 /*Badge gradient variations*/
 .badge-gradient-primary {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-  background: linear-gradient(to right, #da8cff, #9a55ff);
+  background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+  background: linear-gradient(to right, #702DFF, #9a55ff);
   color: #ffffff; }
 
 .badge-gradient-secondary {
@@ -12014,6 +12015,7 @@ code {
 
 /* Buttons */
 .btn {
+  display: grid !important;
   font-size: 0.875rem;
   line-height: 1;
   font-family: "ubuntu-bold", sans-serif;
@@ -12301,8 +12303,8 @@ code {
     border-color: #b66dff; }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-  background: linear-gradient(to right, #da8cff, #9a55ff);
+  background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+  background: linear-gradient(to right, #702DFF, #9a55ff);
   color: #000000; }
 
 .btn-inverse-secondary {
@@ -12551,15 +12553,15 @@ code {
 
 /* gradient buttons */
 .btn-gradient-primary {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-  background: linear-gradient(to right, #da8cff, #9a55ff);
+  background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+  background: linear-gradient(to right, #702DFF, #9a55ff);
   border: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
   .btn-gradient-primary:not([disabled]):not(.disabled):active, .btn-gradient-primary:not([disabled]):not(.disabled).active,
   .show > .btn-gradient-primary.dropdown-toggle {
-    background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-    background: linear-gradient(to right, #da8cff, #9a55ff); }
+    background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+    background: linear-gradient(to right, #702DFF, #9a55ff); }
   .btn-gradient-primary:hover {
     opacity: .8; }
   .btn-gradient-primary:not(.btn-gradient-light) {
@@ -13109,8 +13111,8 @@ code {
       font-weight: bold;
       color: #ffffff; }
     .form-check .form-check-label input[type="checkbox"]:checked + .input-helper:before {
-      background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-      background: linear-gradient(to right, #da8cff, #9a55ff);
+      background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+      background: linear-gradient(to right, #702DFF, #9a55ff);
       border-width: 0; }
     .form-check .form-check-label input[type="checkbox"]:checked + .input-helper:after {
       width: 18px;
@@ -13164,8 +13166,8 @@ code {
         left: auto;
         right: 6px; }
     .form-check .form-check-label input[type="radio"]:checked + .input-helper:before {
-      background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-      background: linear-gradient(to right, #da8cff, #9a55ff);
+      background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+      background: linear-gradient(to right, #702DFF, #9a55ff);
       border-width: 0; }
     .form-check .form-check-label input[type="radio"]:checked + .input-helper:after {
       opacity: 1;
@@ -13186,8 +13188,8 @@ code {
 
 .form-check-primary.form-check label input[type="checkbox"]:checked + .input-helper:before,
 .form-check-primary.form-check label input[type="radio"]:checked + .input-helper:before {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-  background: linear-gradient(to right, #da8cff, #9a55ff); }
+  background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+  background: linear-gradient(to right, #702DFF, #9a55ff); }
 
 .form-check-secondary.form-check label input[type="checkbox"] + .input-helper:before,
 .form-check-secondary.form-check label input[type="radio"] + .input-helper:before {
@@ -13460,8 +13462,8 @@ dl {
       background: -webkit-gradient(linear, left top, right top, from(#84d9d2), to(#07cdae));
       background: linear-gradient(to right, #84d9d2, #07cdae); }
     .gradient-bullet-list li:nth-child(5):before {
-      background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-      background: linear-gradient(to right, #da8cff, #9a55ff); }
+      background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+      background: linear-gradient(to right, #702DFF, #9a55ff); }
 
 .bullet-line-list {
   padding-left: 30px;
@@ -13986,8 +13988,8 @@ dl {
 
 /* Navbar color variations */
 .navbar.navbar-primary .navbar-menu-wrapper {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff));
-  background: linear-gradient(to right, #da8cff, #9a55ff);
+  background: -webkit-gradient(linear, left top, right top, from(#702DFF), to(#9a55ff));
+  background: linear-gradient(to right, #702DFF, #9a55ff);
   color: #ffffff; }
   .navbar.navbar-primary .navbar-menu-wrapper .search-field .input-group input:-ms-input-placeholder {
     color: #ffffff; }
