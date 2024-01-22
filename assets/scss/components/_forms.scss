@@ -17,6 +17,7 @@
 }
 .form-control {
   border: 1px solid $border-color;
+  padding: 14px 40px !important;
   font-family: $type1-regular;
   font-size: $input-font-size;
   &:focus {
