@@ -201,19 +201,19 @@
       var ctx = document.getElementById('visit-sale-chart').getContext("2d");
 
       var gradientStrokeViolet = ctx.createLinearGradient(0, 0, 0, 181);
-      gradientStrokeViolet.addColorStop(0, 'rgba(218, 140, 255, 1)');
-      gradientStrokeViolet.addColorStop(1, 'rgba(154, 85, 255, 1)');
-      var gradientLegendViolet = 'linear-gradient(to right, rgba(218, 140, 255, 1), rgba(154, 85, 255, 1))';
+      gradientStrokeViolet.addColorStop(0, 'rgb(226,213,255)');
+      gradientStrokeViolet.addColorStop(1, 'rgb(226,213,255)');
+      var gradientLegendViolet = 'linear-gradient(to right, rgb(226,213,255), rgb(226,213,255))';
       
       var gradientStrokeBlue = ctx.createLinearGradient(0, 0, 0, 360);
-      gradientStrokeBlue.addColorStop(0, 'rgba(54, 215, 232, 1)');
-      gradientStrokeBlue.addColorStop(1, 'rgba(177, 148, 250, 1)');
-      var gradientLegendBlue = 'linear-gradient(to right, rgba(54, 215, 232, 1), rgba(177, 148, 250, 1))';
+      gradientStrokeBlue.addColorStop(0, 'rgb(141,105,170)');
+      gradientStrokeBlue.addColorStop(1, 'rgb(141,105,170)');
+      var gradientLegendBlue = 'linear-gradient(to right, rgb(141,105,170), rgb(141,105,170))';
 
       var gradientStrokeRed = ctx.createLinearGradient(0, 0, 0, 300);
-      gradientStrokeRed.addColorStop(0, 'rgba(255, 191, 150, 1)');
-      gradientStrokeRed.addColorStop(1, 'rgba(254, 112, 150, 1)');
-      var gradientLegendRed = 'linear-gradient(to right, rgba(255, 191, 150, 1), rgba(254, 112, 150, 1))';
+      gradientStrokeRed.addColorStop(0, 'rgb(166,142,219)');
+      gradientStrokeRed.addColorStop(1, 'rgb(166,142,219)');
+      var gradientLegendRed = 'linear-gradient(to right, rgb(166,142,219), rgb(166,142,219))';
 
       var myChart = new Chart(ctx, {
         type: 'bar',
@@ -436,19 +436,19 @@
     }
     if ($("#traffic-chart").length) {
       var gradientStrokeBlue = ctx.createLinearGradient(0, 0, 0, 181);
-      gradientStrokeBlue.addColorStop(0, 'rgba(54, 215, 232, 1)');
-      gradientStrokeBlue.addColorStop(1, 'rgba(177, 148, 250, 1)');
-      var gradientLegendBlue = 'linear-gradient(to right, rgba(54, 215, 232, 1), rgba(177, 148, 250, 1))';
+      gradientStrokeBlue.addColorStop(0, 'rgb(166,142,219)');
+      gradientStrokeBlue.addColorStop(1, 'rgb(166,142,219)');
+      var gradientLegendBlue = 'linear-gradient(to right, rgb(166,142,219), rgb(166,142,219))';
 
       var gradientStrokeRed = ctx.createLinearGradient(0, 0, 0, 50);
-      gradientStrokeRed.addColorStop(0, 'rgba(255, 191, 150, 1)');
-      gradientStrokeRed.addColorStop(1, 'rgba(254, 112, 150, 1)');
-      var gradientLegendRed = 'linear-gradient(to right, rgba(255, 191, 150, 1), rgba(254, 112, 150, 1))';
+      gradientStrokeRed.addColorStop(0, 'rgb(226,213,255)');
+      gradientStrokeRed.addColorStop(1, 'rgb(226,213,255)');
+      var gradientLegendRed = 'linear-gradient(to right, rgb(226,213,255), rgb(226,213,255))';
 
       var gradientStrokeGreen = ctx.createLinearGradient(0, 0, 0, 300);
-      gradientStrokeGreen.addColorStop(0, 'rgba(6, 185, 157, 1)');
-      gradientStrokeGreen.addColorStop(1, 'rgba(132, 217, 210, 1)');
-      var gradientLegendGreen = 'linear-gradient(to right, rgba(6, 185, 157, 1), rgba(132, 217, 210, 1))';      
+      gradientStrokeGreen.addColorStop(0, 'rgb(141,105,170)');
+      gradientStrokeGreen.addColorStop(1, 'rgb(141,105,170)');
+      var gradientLegendGreen = 'linear-gradient(to right, rgb(141,105,170), rgb(141,105,170))';      
 
       var trafficChartData = {
         datasets: [{
