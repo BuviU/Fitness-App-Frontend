@@ -7700,6 +7700,10 @@ textarea.form-control-lg {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+.nav-profile{
+  margin-top: 70px;
+}
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -11306,7 +11310,10 @@ code {
   border-radius: 4px; }
 
 .page-header {
-  margin: 0 0 1.5rem 0; }
+  margin: 0 0 1.5rem 0; 
+  margin-top: 30px;
+}
+  
   .page-header .breadcrumb {
     border: 0;
     margin-bottom: 0; }
