@@ -14511,3 +14511,46 @@ dl {
 .ch{
   height: 150px;
 }
+.editbtn{
+  padding: 10px 25px !important; 
+  border-radius: 25px !important; 
+  vertical-align: middle !important;
+  margin-right: 8px !important;
+}
+.deletebtn{
+  padding: 10px 25px !important; 
+  border-radius: 25px !important; 
+  vertical-align: middle !important;
+  
+}
+.vid1{
+  border-radius: 25px !important;
+  margin-bottom: 10px;
+  width: fit-content !important;
+}
+.fontbackg{
+  background: #e2d5ff;
+  border-radius: 25px;
+  color: #702dff;
+  font-size: 12px !important;
+  padding: 3px 10px;
+}
+.txt1{
+  font-size: 12px !important;
+}
+.btnlightpurple{
+  background-color: #e2d5ff !important;
+  color: #702dff;
+}
+.video-container {
+  width: 100%; /* Adjust as needed */
+  overflow: hidden; /* Ensures nothing spills out of the container */
+}
+
+.video-container video {
+  max-width: 100%;
+  height: auto;
+}
+.card .card-body {
+  padding: 1.8rem 1.8rem;
+}
