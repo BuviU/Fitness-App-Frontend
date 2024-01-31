@@ -5,8 +5,10 @@
 package-lock.json
 
 
-writable/debugbar/*
+api/writable/debugbar/*
 !writable/debugbar/.gitkeep
+
+api/writable/logs/*
 
 php_errors.log
 
@@ -62,7 +64,6 @@ nb-configuration.xml
 *.sublime-workspace
 *.sublime-project
 .phpintel
-/api/
 
 # Visual Studio Code
 .vscode/
