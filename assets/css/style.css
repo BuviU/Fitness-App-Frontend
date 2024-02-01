@@ -14511,6 +14511,11 @@ dl {
 .ch{
   height: 150px;
 }
+.inputfieldform{
+  vertical-align: middle !important;
+  padding: 18px 30px !important; 
+  border-radius: 15px !important;
+}
 .editbtn{
   padding: 10px 25px !important; 
   border-radius: 25px !important; 
@@ -14538,6 +14543,9 @@ dl {
 .txt1{
   font-size: 12px !important;
 }
+.txt2{
+  font-size: 10px !important;
+}
 .btnlightpurple{
   background-color: #e2d5ff !important;
   color: #702dff;
@@ -14553,4 +14561,30 @@ dl {
 }
 .card .card-body {
   padding: 1.8rem 1.8rem;
+}
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: #702DFF !important;
+}
+
+.bodythumbnail {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.thumbnail-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.thumbnail-preview {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+.card-title1{
+  font-size: 15px;
+  font-weight: 400;
 }
