@@ -142,15 +142,15 @@
                       <div class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email" style="padding: 18px 30px !important; border-radius: 15px !important;">
                       </div>                   
-                      <div class="form-group">                       
-                        <input type="file" name="img[]" class="file-upload-default">
+                      <div class="form-group">
+                        <input type="file" name="img[]" class="file-upload-default" id="fileInput">
                         <div class="input-group col-xs-12">
-                          <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Profile Image" style="padding: 18px 30px !important; border: none;">
-                          <span class="input-group-append">
-                            <button class="file-upload-browse btn btn-gradient-primary" type="button" style="padding: 12px 30px !important; border-radius: 25px !important;">Browse</button>
-                          </span>
+                            <input type="text" class="form-control file-upload-info" disabled placeholder="Add Profile Pic" style="padding: 18px 30px !important; border: none;">
+                            <span class="input-group-append">
+                                <button class="file-upload-browse btn btn-gradient-primary" type="button" onclick="$('#fileInput').click();" style="padding: 12px 30px !important; border-radius: 25px !important;">Browse</button>
+                            </span>
                         </div>
-                      </div>
+                    </div>
                       <div class="form-group">
                         <!-- <label for="exampleSelectGender">Gender</label> -->
                         <select class="form-control" id="exampleSelectGender" placeholder="Gender" style="padding: 18px 30px !important; border-radius: 15px !important;">
