@@ -14517,13 +14517,13 @@ dl {
   border-radius: 15px !important;
 }
 .editbtn{
-  padding: 10px 25px !important; 
+  padding: 9.2px 25px !important; 
   border-radius: 25px !important; 
   vertical-align: middle !important;
   margin-right: 8px !important;
 }
 .deletebtn{
-  padding: 10px 25px !important; 
+  padding: 9.2px 25px !important; 
   border-radius: 25px !important; 
   vertical-align: middle !important;
   
@@ -14589,8 +14589,16 @@ dl {
   font-weight: 400;
 }
 .pfont{
-  font-size: 14px;
+  font-size: 12px;
 }
 .card-label{
-  font-size: 14px !important;
+  font-size: 11px !important;
+}
+.card-label1{
+  font-size: 12px !important;
+}
+
+
+.card {
+  word-wrap: normal;
 }
