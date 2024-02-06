@@ -14598,7 +14598,9 @@ dl {
   font-size: 12px !important;
 }
 
-
 .card {
   word-wrap: normal;
+}
+.mini-marg{
+  padding: 0.8rem 0.8rem !important;
 }
