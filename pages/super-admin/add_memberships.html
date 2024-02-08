@@ -35,9 +35,10 @@
         <div class="main-panel">
           <div class="content-wrapper">           
             <div class="row">
-              <div class="col-md-9 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">                    
+              <div class="col-md-9 grid-margin">
+                <!-- <div class="col-md-9 grid-margin stretch-card"> -->
+                <!-- <div class="card">
+                  <div class="card-body">                     -->
                     <div class="table-responsive">
                       <table class="table">
                         <thead>
@@ -148,8 +149,8 @@
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                </div>
+                  <!-- </div>
+                </div> -->
               </div>            
                <div class="col-md-3 grid-margin stretch-card">
                 <div class="card" style="height: fit-content;">
@@ -167,15 +168,30 @@
                         <input type="text" class="form-control inputfieldform" id="desscription" placeholder="Description">
                       </div>                                       
                      
-                      <div class="form-group">
+                      <!-- <div class="form-group">
                         <input type="file" name="img[]" class="file-upload-default" id="fileInput">
-                        <div class="input-group col-xs-12">
-                            <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 30px !important; border: none;">
-                            <span class="input-group-append">
-                                <button class="file-upload-browse btn btn-gradient-primary" type="button" onclick="$('#fileInput').click();" style="padding: 12px 30px !important; border-radius: 25px !important;">Browse</button>
-                            </span>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 20px !important; border: none;">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();">Browse</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>   
+                    </div>  -->
+                    <div class="form-group">
+                      <input type="file" name="img[]" class="file-upload-default" id="fileInput">
+                      <div class="input-group col-xs-12">
+                          <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 30px !important; border-radius: 25px !important; border: none;">
+                          <span class="input-group-append">
+                              <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();" >Browse</button>
+                          </span>
+                      </div>
+                  </div>
                       <div class="form-group">                        
                         <input type="text" class="form-control inputfieldform" id="program" placeholder="Exercise Name">
                       </div> 
@@ -187,9 +203,9 @@
                     <div class="form-group">
                       <input type="file" name="img[]" class="file-upload-default" id="fileInput">
                       <div class="input-group col-xs-12">
-                          <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 30px !important; border-radius: 25px !important;">
+                          <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 30px !important; border-radius: 25px !important; border: none;">
                           <span class="input-group-append">
-                              <button class="file-upload-browse btn btn-gradient-primary" type="button" onclick="$('#fileInput').click();" style="padding: 12px 30px !important; border-radius: 25px !important;">Browse</button>
+                              <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();" >Browse</button>
                           </span>
                       </div>
                   </div>
