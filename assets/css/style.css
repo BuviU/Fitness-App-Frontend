@@ -14610,3 +14610,13 @@ dl {
 .mini-marg{
   padding: 0.8rem 0.8rem !important;
 }
+.grid-margin, .purchase-popup {
+  margin-bottom: 1.5rem;
+}
+.form-check-label{
+  font-size: 17px !important;
+}
+.card-title{
+  font-size: 17px !important;
+
+}
