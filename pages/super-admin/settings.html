@@ -37,9 +37,9 @@
         <div class="main-panel">
           <div class="content-wrapper">     
             <div class="row">       
-              <div class="col-md-8 grid-margin stretch-card">                                          
-                          <div class="card">
-                            <div class="card-body">
+              <div class="col-md-12 grid-margin">                                          
+                          <!-- <div class="card">
+                            <div class="card-body"> -->
                               <div class="table-responsive">
                                 <table class="table">
                                   <thead>
@@ -53,19 +53,70 @@
                                          </div>  
                                           <div class="input-group" style="border: none; ">                                  
                                              <label class="form-control form-check-label" style="border: none; 
-                                             "><strong>SETTINGS</strong><br><span style="border: none; font-size: 12px !important;">Here you can generate your income, sales reports.</span> </label>
+                                             "><strong>SETTINGS</strong><br><span style="border: none; font-size: 12px !important;">Alter the look and feel of your application.</span> </label>
                                             
                                             </div>
                                                                       
                                       </form>
                                     </div></tr></thead></table></div>
-                    
-             
-                                                                                                                                                
-              </tbody>
-            </table>
-                </div>
-              </div>                   
+                                    
+                                    <form class="forms-settings">
+                                      <div class="form-group row">
+                                        <label for="accent_color" class="col-sm-5 col-form-label">Accent colour <br><span style="border: none; font-size: 12px !important;">Main colour used throughout the theme(buttons,action items, and highlights).</span></label>
+                                        <div class="col-sm-4">                                        
+                                        </div>                                       
+                                         <div class="col-sm-3"> 
+                                          <input type="color" class="form-control inputfieldform" id="accent_color" placeholder="Accent color" onchange="updatePreviewColor(this)" style="padding: 15px; background: #ffffff;">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="progress_color" class="col-sm-5 col-form-label">Progress colour <br><span style="border: none; font-size: 12px !important;">Colour used for all successful progress-related items (completed items, certificates, and progress bars).</span></label>
+                                        <div class="col-sm-4">                                       
+                                        </div>                                       
+                                         <div class="col-sm-3"> 
+                                          <input type="color" class="form-control inputfieldform" id="accent_color" placeholder="Accent color" onchange="updatePreviewColor(this)" style="padding: 15px; background: #ffffff;">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="alertcolor" class="col-sm-5 col-form-label">Notifications, Warnings, etc.  <br><span style="border: none; font-size: 12px !important;">This colur is used when there are warning, importaant messages.</span></label>
+                                        <div class="col-sm-4">                                       
+                                        </div>                                       
+                                         <div class="col-sm-3"> 
+                                          <input type="color" class="form-control inputfieldform" id="accent_color" placeholder="Accent color" onchange="updatePreviewColor(this)" style="padding: 15px; background: #ffffff;">
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="font" class="col-sm-5 col-form-label">Font  <br><span style="border: none; font-size: 12px !important;">Choose your prefer font.</span></label>
+                                       
+                                        <div class="col-sm-4">                                       
+                                        </div>                                       
+                                         <div class="col-sm-3"> 
+                                          <select class="form-control inputfieldform" id="font" name="font">
+                                            <option value="">Select Font Family</option>
+                                            <option value="Arial">Arial</option>
+                                            <option value="Verdana">Verdana</option>
+                                            <option value="Times New Roman">Times New Roman</option>
+                                            <!-- Add more font options as needed -->
+                                          </select>
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                        <label for="fileInput" class="col-sm-5 col-form-label">Logo Upload  <br><span style="border: none; font-size: 12px !important;">This logo will appear in the Focus Mode and LearnDash Login form when enabled. Optional.</span></label>
+                                       
+                                        <div class="col-sm-4">                                       
+                                        </div>                                       
+                                         <div class="col-sm-3"> 
+                                          <input type="text" class="form-control file-upload-info inputfieldform" readonly placeholder="Upload image">
+                                          <input type="file" name="img[]" class="file-upload-default form-control" id="fileInput"><br>
+                                          <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();">Browse</button>
+                                        </div>
+                                      </div>
+                                    
+                                    </form>
+                                    
+          
+                <!-- </div>
+              </div>                    -->
                       <!-- </div> -->
                     <!-- </div>
                   </div> -->
@@ -73,98 +124,7 @@
                  </div> -->
   
             </div>
-            <div class="col-md-4 grid-margin stretch-card">
-              <div class="card" style="height: fit-content;">
-             <div class="card-body">
-                  <h6 class="card-title">Previously Generated Reports</h6>   
-                  
-                      <div class="form-group">
-                          <div class="row"> 
-                              <div class="table-responsive">
-                  <table class="table">                       
-                     
-                      <tbody>
-                        <tr>
-                          <div class="input-group">                                   
-                            <input type="search" class="form-control" placeholder="Search" aria-label="Search " aria-describedby="basic-addon2" style="padding: 15px 30px !important; border-radius: 15px !important;">
-                     </div>
-                        </tr>
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw">Open</button></td>                                                                                                                                       
-                        </tr>
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw" >Open</button></td>                                                                                                                                       
-                        </tr>
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw" >Open</button></td>                                                                                                                                       
-                        </tr>
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw" >Open</button></td>                                                                                                                                       
-                        </tr>
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw" >Open</button></td>                                                                                                                                       
-                        </tr>                                                         
-                        
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw" >Open</button></td>                                                                                                                                       
-                        </tr>
-                        <tr>
-                          <td class="card-label1"><label class="card-label">Sales Report<br>
-                          Sarahone!@gmail.com</label></td>
-                          <td><button type="button" class="btn1 btn-gradient-primary btn-rounded btn-fw" >Open</button></td>                                                                                                                                       
-                        </tr>
-                   
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>              
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
             <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
           <footer class="footer">
@@ -180,6 +140,20 @@
       <!-- page-body-wrapper ends -->
     </div>
     <!-- container-scroller -->
+    <script>
+      function updatePreviewColor(input) {
+        var color = input.value;
+        input.style.background = color;
+      }
+    </script>
+    
+<!-- <script>
+  function updatePreviewColor(input) {
+    var color = input.value;
+    var preview = document.getElementById('accent_color_preview');
+    preview.style.backgroundColor = color;
+  }
+</script> -->
     <script src="../..assets/js/jquery-3.3.1.min.js"></script>
     <script src="../..assets/js/bootstrap.min.js"></script>
     <script src="../..assets/js/jquery.nice-select.min.js"></script>
