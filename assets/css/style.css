@@ -14626,3 +14626,17 @@ dl {
 .forms-settings{
   margin-left: 20px;
 }
+
+
+
+.card .ribbon a{
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  background: linear-gradient(to right, #e2d5ff, #a68edb);
+  color: #FFF;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+}
