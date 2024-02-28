@@ -1,257 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>eCoaching</title>
-    <!-- plugins:css -->
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
-    <!-- endinject -->
-    <!-- Plugin css for this page -->
-    <!-- End plugin css for this page -->
-    <!-- inject:css -->
-    <!-- endinject -->
-    <!-- Layout styles -->
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <!-- End layout styles -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
-    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
-    <script> 
-      $(function(){
-        $("#baseHeader").load("../../base-header.html"); 
-      });
-      $(function(){
-        $("#sidebar").load("../../sidebar.html"); 
-      });
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>eCoaching</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <!-- End layout styles -->
+  <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+  <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(function () {
+      $("#baseHeader").load("base-header.html");
+    });
+    $(function () {
+      $("#sidebar").load("sidebar.html");
+    });
   </script>
-  </head>
+</head>
 
-  <body>
-    <div id="baseHeader"></div> 
-      <div class="container-fluid page-body-wrapper">
-        <div id="sidebar"></div>
+<body>
+  <div id="baseHeader"></div>
+  <div class="container-fluid page-body-wrapper">
+    <div id="sidebar"></div>
+    <div class="main-panel">
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-8 grid-margin mt-5">
+            <table class="table">
+              <thead>
+                <tr>
+                  <div class="search-field d-none d-md-block">
+                    <form class="d-flex align-items-center h-100" action="#">
+                      <div class="input-group" style="border: none;">
+                        <label class="form-control form-check-label1" style="border: none; 
+                              "><img src="../../assets/images/faces/profile.png" class="me-2" alt="image"
+                            style="border-radius: 50px; width: 40px; height: 40px !important;margin-left: -10px;">Coach
+                          Mohan</label>
 
-
-        <div class="main-panel">
-          <div class="content-wrapper">
-            
-            <div class="row">
-              <div class="col-md-8 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">                    
-                    <div class="table-responsive">
-                      <table class="table">
-                        <thead>
-                          <!-- <tr>
-                            <th class="card-title h-100">Coaches</th>
-                           <th></th>
-                           <th></th>
-                            <th> <button type="button" class="btn btn-gradient-primary btn-rounded btn-fw">Add New Users</button> </th>
-                          </tr> -->
-                          <tr>
-                           <div class="search-field d-none d-md-block">
-                            <form class="d-flex align-items-center h-100" action="#">
-                              <div class="input-group" style="border: none; ">                                  
-                                <label class="form-control form-check-label" style="border: none; 
-                                font-size: 1.125rem;"><img src="\assets/images/faces/face1.jpg" class="me-2" alt="image" style="border-radius: 50px; width: 40px; height: 40px !important;margin-left: -10px;">Coach Mohan</label>
-                             
-                               </div>                                                            
-                                <div class="input-group" style="border: none; ">                                  
-                                   <label class="form-control form-check-label" style="border: none; 
-                                   font-size: 1.125rem;"><strong>Workouts</strong></label>
-                                   <div class="input-group-append">
-                                     <button type="button" class="btn btn-gradient-primary  btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important; vertical-align: middle !important;">Create New Workout</button>
-                                    </div> 
-                                  </div>
-                                  <div class="input-group">                                   
-                                    <input type="search" class="form-control" placeholder="Search Your Exercise Here..." aria-label="Search Exercise" aria-describedby="basic-addon2" style="padding: 20px 30px !important; border-radius: 15px !important;">
-                                                                   
-                              </div>
-                              
-                            </form>
-                          </div></tr>
-                        </thead>
-                        <tbody>
-                            <!-- <tr>
-                                <td class="card-title h-100">Coaches</td>                                                                 
-                                <td  style="width: 100%;"></td><td style="width: 100%;"></td>
-                                <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Add New User</button></td>
-                              </tr> -->
-                          <tr>
-                            <td style="width: 100%;">
-                              <img src="\assets/images/faces/face1.jpg" class="me-2" alt="image"> Workout 1<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            <td  style="width: 100%;"></td><td style="width: 100%;"></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face2.jpg" class="me-2" alt="image" > Workout 2 <br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button> </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face3.jpg" class="me-2" alt="image"> Workout 3  <br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 4 <br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Workout 5<br><br>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Customise Workout</button></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-               <div class="col-md-4 grid-margin stretch-card">
-
-                <div class="card">
-               <div class="card-body">
-                    <h4 class="card-title">Add New Workout</h4>                    
-                    <form class="forms-sample">
-                      <div class="form-group">                        
-                        <input type="text" class="form-control" id="exampleInputfName1" placeholder="Workout Name" style="padding: 18px 30px !important; border-radius: 15px !important;">
                       </div>
-                                                                                
-                      <button type="submit" class="btn1 btn-gradient-primary me-2" style="width: 100%; border-radius: 25px;">Save</button>
-                      
-                    
+                      <div class="input-group" style="border: none; ">
+                        <label class="form-control form-check-label" style="border: none; 
+                                 font-size: 1.125rem;"><strong>Workout</strong></label>
+                        <div class="input-group-append">
+                          <button type="button" class="btn btnlightpurple  btn-fw"
+                            style="padding: 10px 30px !important; border-radius: 25px !important; vertical-align: middle !important;">Create
+                            New Workouts</button>
+                        </div>
+                      </div>
+                      <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search Your Workout Here..."
+                          aria-label="Search Workout" aria-describedby="basic-addon2"
+                          style="padding: 20px 30px !important; border-radius: 15px !important;">
+                      </div>
                     </form>
                   </div>
+                </tr>
+              </thead>
+
+              <tbody>
+            <div class="row mt-5"> 
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Monday</span></h5>
+                    <h5 class="mt-3"> <a href="add_exercise.html">Fullbody Workout</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="15"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
                 </div>
               </div>
-              
+            
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Tuesday</span></h5>
+                    <h5 class="mt-3"><a href="add_exercise.html">Upperbody Workout</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="15"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Wednesday</span></h5>
+                    <h5 class="mt-3"><a href="add_exercise.html">Rest Day</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Thursday</span></h5>
+                    <h5 class="mt-3"><a href="add_exercise.html">Upperbody Workout</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="15"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Friday</span></h5>
+                    <h5 class="mt-3"><a href="add_exercise.html">Upperbody Workout</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="15"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Saturday</span></h5>
+                    <h5 class="mt-3"><a href="add_exercise.html">Upperbody Workout</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="15"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 grid-margin">
+                <div class="card card-img-holder">
+                  <div class="card-body">
+                    <h5 class="mt-3"><span class="fontbackg">Sunday</span></h5>
+                    <h5 class="mt-3"><a href="add_exercise.html">Upperbody Workout</a></h5>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="15"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="ribbon">
+                    <a href="#"><i class="mdi mdi-pencil"></i></a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </tbody>
+    </table>
+    </div>
+
+        <div class="col-md-4 grid-margin stretch-card mt-5">
+          <div class="card" style="height: fit-content">
+            <div class="card-body">
+              <h4 class="card-title">Add workout</h4>
+              <form class="forms-sample">
+                <div class="form-group">
+                  <select class="form-control form-control-lg" id="exampleFormControlSelect2" style="
+                            padding: 18px 30px !important;
+                            border-radius: 15px !important;
+                          ">
+                    <option>Select Membership</option>
+                    <option>Membership (Challenge Female Gym 4 days)</option>
+                    <option>Membership name1</option>
+                    <option>Membership name2</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control form-control-lg" id="exampleFormControlSelect2" style="
+                            padding: 18px 30px !important;
+                            border-radius: 15px !important;
+                          ">
+                    <option>Select program</option>
+                    <option>Phase 1</option>
+                    <option>Phase 2</option>
+                    
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="Workout" placeholder="Workout name" style="
+                            padding: 18px 30px !important;
+                            border-radius: 15px !important;
+                          " />
+                </div>
+                <div class="form-group" style="
+                padding: 18px 30px !important;">
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Monday <i class="input-helper"></i></label>
+                  </div>
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Tuesday <i class="input-helper"></i></label>
+                  </div>
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Wednesday <i class="input-helper"></i></label>
+                  </div>
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Thursday <i class="input-helper"></i></label>
+                  </div>
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Friday <i class="input-helper"></i></label>
+                  </div>
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Saturday <i class="input-helper"></i></label>
+                  </div>
+                  <div class="form-check form-check-primary">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="ExampleRadio1" id="ExampleRadio1" checked="">Sunday <i class="input-helper"></i></label>
+                  </div>
+
+                </div>
+                <button type="submit" class="btn1 btn-gradient-primary me-2" style="width: 100%; border-radius: 25px">
+                  Save
+                </button>
+              </form>
             </div>
           </div>
-          <!-- content-wrapper ends -->
-          <!-- partial:partials/_footer.html -->
-          <footer class="footer">
-            <div class="container-fluid d-flex justify-content-between">
-              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arttricks 2024</span>
-              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"><a href="https://arttricks.com.au/" target="_blank">arttricks.com.au</a></span>
-            </div>
-          </footer>
-          <!-- partial -->
         </div>
-        <!-- main-panel ends -->
       </div>
-      <!-- page-body-wrapper ends -->
     </div>
-    <!-- container-scroller -->
-    <script src="../..assets/js/jquery-3.3.1.min.js"></script>
-    <script src="../..assets/js/bootstrap.min.js"></script>
-    <script src="../..assets/js/jquery.nice-select.min.js"></script>
-    <script src="../..assets/js/jquery-ui.min.js"></script>
-    <script src="../..assets/js/jquery.slicknav.js"></script>
-    <!-- plugins:js -->
-    <script src="../..assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="../..assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="../..assets/js/jquery.cookie.js" type="text/javascript"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="../..assets/js/off-canvas.js"></script>
-    <script src="../..assets/js/hoverable-collapse.js"></script>
-    <script src="../..assets/js/misc.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="../..assets/js/dashboard.js"></script>
-    <script src="../..assets/js/todolist.js"></script>
-    <!-- End custom js for this page -->
-  </body>
+    <!-- content-wrapper ends -->
+    <!-- partial:partials/_footer.html -->
+    <footer class="footer">
+      <div class="container-fluid d-flex justify-content-between">
+        <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arttricks 2024</span>
+        <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"><a href="https://arttricks.com.au/"
+            target="_blank">arttricks.com.au</a></span>
+      </div>
+    </footer>
+    <!-- partial -->
+  </div>
+  <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <script src="../..assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../..assets/js/bootstrap.min.js"></script>
+  <script src="../..assets/js/jquery.nice-select.min.js"></script>
+  <script src="../..assets/js/jquery-ui.min.js"></script>
+  <script src="../..assets/js/jquery.slicknav.js"></script>
+  <!-- plugins:js -->
+  <script src="../..assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../..assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="../..assets/js/jquery.cookie.js" type="text/javascript"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../..assets/js/off-canvas.js"></script>
+  <script src="../..assets/js/hoverable-collapse.js"></script>
+  <script src="../..assets/js/misc.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page -->
+  <script src="../..assets/js/dashboard.js"></script>
+  <script src="../..assets/js/todolist.js"></script>
+  <!-- End custom js for this page -->
+</body>
+
 </html>

@@ -1,256 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>eCoaching</title>
-    <!-- plugins:css -->
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
-    <!-- endinject -->
-    <!-- Plugin css for this page -->
-    <!-- End plugin css for this page -->
-    <!-- inject:css -->
-    <!-- endinject -->
-    <!-- Layout styles -->
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <!-- End layout styles -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
-    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
-    <script> 
-      $(function(){
-        $("#baseHeader").load("../../base-header.html"); 
-      });
-      $(function(){
-        $("#sidebar").load("../../sidebar.html"); 
-      });
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>eCoaching</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <!-- End layout styles -->
+  <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+  <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(function () {
+      $("#baseHeader").load("base-header.html");
+    });
+    $(function () {
+      $("#sidebar").load("sidebar.html");
+    });
   </script>
-  </head>
+</head>
 
-  <body>
-    <div id="baseHeader"></div> 
-      <div class="container-fluid page-body-wrapper">
-        <div id="sidebar"></div>
-        <div class="main-panel">
-          <div class="content-wrapper">
-            
+<body>
+  <div id="baseHeader"></div>
+  <div class="container-fluid page-body-wrapper">
+    <div id="sidebar"></div>
+    <div class="main-panel">
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-8 grid-margin mt-5">
+            <div class="search-field">
+              <form class="d-flex align-items-center h-100" action="#">
+                <div class="input-group" style="border: none">
+                  <label class="form-control form-check-label"
+                    style="border: none; font-size: 1.125rem"><strong>Coaches</strong></label>
+                  <div class="input-group-append">
+                    <button type="button" class="btn btnlightpurple btn-fw" style="
+                          padding: 10px 30px !important;
+                          border-radius: 25px !important;
+                          vertical-align: middle !important;
+                        ">
+                      Create New Coaches
+                    </button>
+                  </div>
+
+                  <div class="input-group">
+                    <input type="search" class="form-control" placeholder="Search Coach Name Here..."
+                      aria-label="Search Coach" aria-describedby="basic-addon2" style="
+                          padding: 20px 30px !important;
+                          border-radius: 15px !important;
+                          margin-bottom: 20px;
+                        " />
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+
             <div class="row">
-              <div class="col-md-8 grid-margin stretch-card">
+              <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
-                  <div class="card-body">                    
-                    <div class="table-responsive">
-                      <table class="table">
-                        <thead>
-                          <!-- <tr>
-                            <th class="card-title h-100">Coaches</th>
-                           <th></th>
-                           <th></th>
-                            <th> <button type="button" class="btn btn-gradient-primary btn-rounded btn-fw">Add New Users</button> </th>
-                          </tr> -->
-                          <tr>
-                           <div class="search-field d-none d-md-block">
-                            <form class="d-flex align-items-center h-100" action="#">
-                              <!-- <div class="input-group">
-                                <div class="input-group-prepend bg-transparent">
-                                  <i class="input-group-text border-0 mdi mdi-magnify"></i>
-                                </div>
-                                <input type="text" class="form-control bg-transparent border-0" placeholder=" Search your exercise here... ">
-                              </div> -->
-                              
-                                
-                                <div class="input-group" style="border: none; ">                                  
-                                   <label class="form-control form-check-label" style="border: none; 
-                                   font-size: 1.125rem;"><strong>Coaches</strong></label>
-                                   <div class="input-group-append">
-                                     <button type="button" class="btn btnlightpurple  btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important; vertical-align: middle !important;">Add New Users</button>
-                                    </div> 
-                                  </div>
-                                  <div class="input-group">                                   
-                                    <input type="search" class="form-control" placeholder="Search Your Exercise Here..." aria-label="Search Exercise" aria-describedby="basic-addon2" style="padding: 20px 30px !important; border-radius: 15px !important;">
-                                                                   
-                              </div>
-                              
-                            </form>
-                          </div></tr>
-                        </thead>
-                        <tbody>
-                            <!-- <tr>
-                                <td class="card-title h-100">Coaches</td>                                                                 
-                                <td  style="width: 100%;"></td><td style="width: 100%;"></td>
-                                <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Add New User</button></td>
-                              </tr> -->
-                          <tr>
-                            <td style="width: 100%;">
-                              <img src="\assets/images/faces/face1.jpg" class="me-2" alt="image"> David Grey <br><br>
-                               david@gmail.com
-                            </td>
-                            <td  style="width: 100%;"></td><td style="width: 100%;"></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face2.jpg" class="me-2" alt="image" > Stella Johnson  <br><br>
-                              stella@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button> </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face3.jpg" class="me-2" alt="image"> Marina Michel  <br><br>
-                              Marina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> John Doe <br><br>
-                              Marina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Karina Doe <br><br>
-                              Karina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Karina Doe <br><br>
-                              Karina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Karina Doe <br><br>
-                              Karina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Karina Doe <br><br>
-                              Karina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Karina Doe <br><br>
-                              Karina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="\assets/images/faces/face4.jpg" class="me-2" alt="image"> Karina Doe <br><br>
-                              Karina@gmail.com
-                            </td>
-                            <td></td><td></td>
-                            <td> <button type="button" class="btn2 btn-gradient-primary btn-rounded btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important;">Edit</button></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-               <div class="col-md-4 grid-margin stretch-card">
+                  <div class="card-body">
+                    <table class="table">
+ 
+                      <tbody>
+                        <tr>
+                          <td> 1 </td>
+                          <td> Mohan </td>
+                          <td> mahanama@gmail.com </td>
+                          <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                              <a type="button" class="btn btn-outline-primary">
+                                <i class="mdi mdi-pencil-outline"></i>
+                              </a>
+                              <a type="button" class="btn btn-outline-primary" href="add_memberships.html">
+                                <i class="mdi mdi-fast-forward"></i>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
 
-                <div class="card">
-               <div class="card-body">
-                    <h4 class="card-title">Add Coaches</h4>                    
-                    <form class="forms-sample">
-                      <div class="form-group">                        
-                        <input type="text" class="form-control" id="exampleInputfName1" placeholder="First Name" style="padding: 18px 30px !important; border-radius: 15px !important;">
-                      </div>
-                      <div class="form-group">                       
-                        <input type="text" class="form-control" id="exampleInputlName1" placeholder="Last Name" style="padding: 18px 30px !important; border-radius: 15px !important;">
-                      </div>
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email" style="padding: 18px 30px !important; border-radius: 15px !important;">
-                      </div>                   
-                      <div class="form-group">
-                        <input type="file" name="img[]" class="file-upload-default" id="fileInput">
-                        <div class="input-group col-xs-12">
-                            <input type="text" class="form-control file-upload-info" disabled placeholder="Add Profile Pic" style="padding: 18px 30px !important; border: none;">
-                            <span class="input-group-append">
-                                <button class="file-upload-browse btn btn-gradient-primary" type="button" onclick="$('#fileInput').click();" style="padding: 12px 30px !important; border-radius: 25px !important;">Browse</button>
-                            </span>
-                        </div>
-                    </div>
-                      <div class="form-group">
-                        <!-- <label for="exampleSelectGender">Gender</label> -->
-                        <select class="form-control" id="exampleSelectGender" placeholder="Gender" style="padding: 18px 30px !important; border-radius: 15px !important;">
-                            <option>Select Your Gender</option>
-                          <option>Male</option>
-                          <option>Female</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <!-- <label for="exampleInputbirth">Date of Birth</label> -->
-                        <div class="col-sm-9">
-                          <input class="form-control" placeholder="Date of Birth (dd/mm/yyyy)" style="padding: 18px 30px !important; border-radius: 15px !important;"/>
-                        </div>
-                      </div>
-                     
-                      <button type="submit" class="btn1 btn-gradient-primary me-2" style="width: 100%; border-radius: 25px;">Save</button>
-                      
-                    
-                    </form>
+                        <tr>
+                          <td> 2 </td>
+                          <td> David</td>
+                          <td> david@gmail.com </td>
+                          <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                              <a type="button" class="btn btn-outline-primary">
+                                <i class="mdi mdi-pencil-outline"></i>
+                              </a>
+                              <a type="button" class="btn btn-outline-primary" href="#">
+                                <i class="mdi mdi-fast-forward"></i>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td> 3 </td>
+                          <td> Stella</td>
+                          <td> stella@gmail.com </td>
+                          <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                              <a type="button" class="btn btn-outline-primary">
+                                <i class="mdi mdi-pencil-outline"></i>
+                              </a>
+                              <a type="button" class="btn btn-outline-primary" href="#">
+                                <i class="mdi mdi-fast-forward"></i>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td> 4 </td>
+                          <td>  Marina  </td>
+                          <td>  marina @gmail.com </td>
+                          <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                              <a type="button" class="btn btn-outline-primary">
+                                <i class="mdi mdi-pencil-outline"></i>
+                              </a>
+                              <a type="button" class="btn btn-outline-primary" href="#">
+                                <i class="mdi mdi-fast-forward"></i>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td> 5 </td>
+                          <td> John </td>
+                          <td> john@gmail.com </td>
+                          <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                              <a type="button" class="btn btn-outline-primary">
+                                <i class="mdi mdi-pencil-outline"></i>
+                              </a>
+                              <a type="button" class="btn btn-outline-primary" href="#">
+                                <i class="mdi mdi-fast-forward"></i>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
-          <!-- content-wrapper ends -->
-          <!-- partial:partials/_footer.html -->
-          <footer class="footer">
-            <div class="container-fluid d-flex justify-content-between">
-              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arttricks 2024</span>
-              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"><a href="https://arttricks.com.au/" target="_blank">arttricks.com.au</a></span>
+
+          <div class="col-md-4 grid-margin stretch-card mt-5">
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Add Coaches</h4>
+                <form class="forms-sample">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputfName1" placeholder="First Name"
+                      style="padding: 18px 30px !important; border-radius: 15px !important;">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputlName1" placeholder="Last Name"
+                      style="padding: 18px 30px !important; border-radius: 15px !important;">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email"
+                      style="padding: 18px 30px !important; border-radius: 15px !important;">
+                  </div>
+                  <div class="form-group">
+                    <input type="file" name="img[]" class="file-upload-default" id="fileInput">
+                    <div class="input-group col-xs-12">
+                      <input type="text" class="form-control file-upload-info" disabled placeholder="Dp"
+                        style="padding: 18px 30px !important; border: none;">
+                      <span class="input-group-append">
+                        <button class="file-upload-browse btn btn-gradient-primary" type="button"
+                          onclick="$('#fileInput').click();"
+                          style="padding: 12px 30px !important; border-radius: 25px !important;">Browse</button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleSelectGender">Gender</label> -->
+                    <select class="form-control" id="exampleSelectGender" placeholder="Gender"
+                      style="padding: 18px 30px !important; border-radius: 15px !important;">
+                      <option>Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="exampleInputbirth">Date of Birth</label> -->
+                    <div class="col-sm-9">
+                      <input class="form-control" placeholder="Date of Birth (dd/mm/yyyy)"
+                        style="padding: 18px 30px !important; border-radius: 15px !important;" />
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn1 btn-gradient-primary me-2"
+                    style="width: 100%; border-radius: 25px;">Save</button>
+
+
+                </form>
+              </div>
             </div>
-          </footer>
-          <!-- partial -->
+          </div>
+
         </div>
-        <!-- main-panel ends -->
       </div>
-      <!-- page-body-wrapper ends -->
+      <!-- content-wrapper ends -->
+      <!-- partial:partials/_footer.html -->
+      <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+          <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arttricks 2024</span>
+          <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"><a href="https://arttricks.com.au/"
+              target="_blank">arttricks.com.au</a></span>
+        </div>
+      </footer>
+      <!-- partial -->
     </div>
-    <!-- container-scroller -->
-    <script src="../..assets/js/jquery-3.3.1.min.js"></script>
-    <script src="../..assets/js/bootstrap.min.js"></script>
-    <script src="../..assets/js/jquery.nice-select.min.js"></script>
-    <script src="../..assets/js/jquery-ui.min.js"></script>
-    <script src="../..assets/js/jquery.slicknav.js"></script>
-    <!-- plugins:js -->
-    <script src="../..assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="../..assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="../..assets/js/jquery.cookie.js" type="text/javascript"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="../..assets/js/off-canvas.js"></script>
-    <script src="../..assets/js/hoverable-collapse.js"></script>
-    <script src="../..assets/js/misc.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="../..assets/js/dashboard.js"></script>
-    <script src="../..assets/js/todolist.js"></script>
-    <!-- End custom js for this page -->
-  </body>
+    <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <script src="../..assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../..assets/js/bootstrap.min.js"></script>
+  <script src="../..assets/js/jquery.nice-select.min.js"></script>
+  <script src="../..assets/js/jquery-ui.min.js"></script>
+  <script src="../..assets/js/jquery.slicknav.js"></script>
+  <!-- plugins:js -->
+  <script src="../..assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../..assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="../..assets/js/jquery.cookie.js" type="text/javascript"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../..assets/js/off-canvas.js"></script>
+  <script src="../..assets/js/hoverable-collapse.js"></script>
+  <script src="../..assets/js/misc.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page -->
+  <script src="../..assets/js/dashboard.js"></script>
+  <script src="../..assets/js/todolist.js"></script>
+  <!-- End custom js for this page -->
+</body>
+
 </html>

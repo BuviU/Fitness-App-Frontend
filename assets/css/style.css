@@ -5039,14 +5039,16 @@ textarea.form-control-lg {
 
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 0.575rem 1.3rem !important; }
 
 .btn-group > .btn:nth-child(n + 3),
 .btn-group > :not(.btn-check) + .btn,
 .btn-group > .btn-group:not(:first-child) > .btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0; }
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.575rem 1.3rem !important; }
 
 .dropdown-toggle-split {
   padding-right: 1.875rem;
@@ -12618,8 +12620,7 @@ code {
       color: #ffffff; }
 
 .btn-gradient-secondary {
-  background: -webkit-gradient(linear, left top, right top, from(#e7ebf0), to(#868e96));
-  background: linear-gradient(to right, #e7ebf0, #868e96);
+  background: #000;
   border: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
@@ -14162,6 +14163,7 @@ dl {
   font-family: "Inter-regular", sans-serif;
   padding: 0;
   width: 260px;
+  height: 100%;
   z-index: 11;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
@@ -14192,7 +14194,7 @@ dl {
         -ms-flex-align: center;
         align-items: center;
         white-space: nowrap;
-        padding: 1.125rem 0 1.125rem 0;
+        padding: 1.125rem 0 0rem 0;
         color: #3e4b5b;
         -webkit-transition-duration: 0.45s;
         transition-duration: 0.45s;
@@ -14614,7 +14616,7 @@ dl {
   margin-bottom: 1.5rem;
 }
 .form-check-label{
-  font-size: 17px !important;
+  font-size: 12px !important;
 }
 .form-check-label1{
   font-size: 15px !important;
@@ -14631,7 +14633,7 @@ dl {
 
 .card .ribbon a{
   position: absolute;
-  right: 0;
+  right: -0;
   top: 0;
   font-size: 12px;
   background: linear-gradient(to right, #e2d5ff, #a68edb);
@@ -14639,4 +14641,13 @@ dl {
   padding: 10px 15px;
   border-radius: 25px;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0f1531;
+}
+
+video{
+  border-radius: 25px !important;
 }

@@ -20,10 +20,10 @@
     <script src="../../assets/js/jquery-3.3.1.min.js"></script>
     <script> 
       $(function(){
-        $("#baseHeader").load("../../base-header.html"); 
+        $("#baseHeader").load("base-header.html"); 
       });
       $(function(){
-        $("#sidebar").load("../../sidebar.html"); 
+        $("#sidebar").load("sidebar.html"); 
       });
   </script>
   </head>
@@ -45,11 +45,15 @@
 }
   .color-preview {
     display: inline-block;
-    width: 60px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 12px;
     border: 1px solid #ccc;
     margin-right: 10px;
+  }
+
+  .f-11{
+    font-size: 11px !important;
   }
   
   
@@ -63,7 +67,7 @@
         <div class="main-panel">
           <div class="content-wrapper">     
             <div class="row">       
-              <div class="col-md-12 grid-margin stretch-card">                                          
+              <div class="col-md-12 grid-margin stretch-card mt-5">                                          
                 <div class="card">
                   <div class="card-body">
                     <div class="table-responsive">
@@ -72,55 +76,81 @@
                           <tr>
                             <div class="search-field d-none d-md-block">
                               <!-- Add form outside of table for proper mobile rendering -->
-                              <form class="d-flex align-items-center h-100" action="#">  
-                                <div class="input-group" style="border: none; ">                                  
-                                  <label class="form-control form-check-label1" style="border: none; 
-                                  "><img src="../../assets/images/faces/face1.jpg" class="me-2" alt="image" style="border-radius: 50px; width: 40px; height: 40px !important;margin-left: -10px;">Coach Mohan</label>
+                              <form class=" align-items-center h-100" action="#">   
+                                <div class="input-group" style="border: none">
+                                  <label class="form-control form-check-label"
+                                    style="border: none; font-size: 1.125rem"><strong>Settings</strong></label>
                                 </div>  
-                                <div class="input-group" style="border: none; ">                                  
-                                  <label class="form-control form-check-label" style="border: none; 
-                                  "><strong>SETTINGS</strong><br><span style="border: none; font-size: 12px !important;">Alter the look and feel of your application.</span> </label>
-                                </div>   
                               </form>
                             </div>
                           </tr>
                         </thead>
                       </table>
                     </div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     <form class="forms-settings">
                                       <div class="form-group row">
-                                        <label for="accent_color" class="col-sm-5 col-form-label">Accent colour  <br><span style="border: none; font-size: 12px !important;">Main colour used throughout the theme(buttons,action items, and highlights).</span></label>
-                                        <div class="col-sm-7">
+                                        <div class="col-md-6">
+                                        <label for="accent_color" class="col-md-6 col-form-label">Accent color  <br><br><span style="border: none; font-size: 11px !important;">Main colour used throughout the theme(buttons,action items, and highlights).</span></label>
+                                        
                                           <div class="color-picker" onclick="openColorPicker('accent_color')">
                                             <span id="accent_color_preview" class="color-preview"></span>
                                             <span class="color-text">Select color</span>
                                           </div>
                                           <input type="color" class="form-control inputfieldform d-none" id="accent_color" onchange="updatePreviewColor(this)">
+                                        
                                         </div>
-                                      </div>
-                                      <div class="form-group row">
-                                        <label for="progress_color" class="col-sm-5 col-form-label">Progress colour  <br><span style="border: none; font-size: 12px !important;">Colour used for all successful progress-related items (completed items, certificates, and progress bars).</span></label>
-                                        <div class="col-sm-7">
-                                          <div class="color-picker" onclick="openColorPicker('progress_color')">
-                                            <span id="progress_color_preview" class="color-preview"></span>
-                                            <span class="color-text">Select color</span>
+                                        <div class="col-md-6">
+                                          <label for="progress_color" class="col-md-6 col-form-label">Progress color  <br><br><span style="border: none; font-size: 11px !important;">Colour used for all successful progress-related items (completed items, certificates, and progress bars).</span></label>
+                                          
+                                            <div class="color-picker" onclick="openColorPicker('progress_color')">
+                                              <span id="progress_color_preview" class="color-preview"></span>
+                                              <span class="color-text">Select color</span>
+                                            </div>
+                                            <input type="color" class="form-control inputfieldform d-none" id="progress_color" onchange="updatePreviewColor(this)">
                                           </div>
-                                          <input type="color" class="form-control inputfieldform d-none" id="progress_color" onchange="updatePreviewColor(this)">
-                                        </div>
                                       </div>
+
                                       <div class="form-group row">
-                                        <label for="alertcolor" class="col-sm-5 col-form-label">Notification colour <br><span style="border: none; font-size: 12px !important;">This colur is used when there are warning, importaant messages.</span></label>
-                                        <div class="col-sm-7">
+                                        <div class="col-md-6">
+                                        <label for="alertcolor" class="col-md-6 col-form-label">Notification color <br><br><span style="border: none; font-size: 11px !important;">This colur is used when there are warning, importaant messages.</span></label>
+                                       
                                           <div class="color-picker" onclick="openColorPicker('alertcolor')">
                                             <span id="alertcolor_preview" class="color-preview"></span>
                                             <span class="color-text">Select color</span>
                                           </div>
                                           <input type="color" class="form-control inputfieldform d-none" id="alertcolor" onchange="updatePreviewColor(this)">
                                         </div>
+                                        <div class="col-md-6">
+                                          <label for="extra_color" class="col-md-6 col-form-label">Extra color  <br><br><span style="border: none; font-size: 11px !important;">For extra use</span></label>
+                                          
+                                            <div class="color-picker" onclick="openColorPicker('extra_color')">
+                                              <span id="extra_color_preview" class="color-preview"></span>
+                                              <span class="color-text">Select color</span>
+                                            </div>
+                                            <input type="color" class="form-control inputfieldform d-none" id="extra_color" onchange="updatePreviewColor(this)">
+                                          </div>
+
                                       </div>
                                       <div class="form-group row">
-                                        <label for="font" class="col-sm-5 col-form-label">Font</label>
-                                        <div class="col-sm-5">
+                                        <label for="font" class="col-md-6 col-form-label">Font</label>
+                                        <div class="col-md-6">
                                           <select class="form-control inputfieldform" id="font" name="font">
                                             <option value="">Select Font Family</option>
                                             <option value="Arial">Arial</option>
@@ -130,8 +160,8 @@
                                         </div>
                                       </div>
                                       <div class="form-group row">
-                                        <label for="fileInput" class="col-sm-5 col-form-label">Logo Upload</label>
-                                        <div class="col-sm-5">
+                                        <label for="fileInput" class="col-md-6 col-form-label">Logo Upload</label>
+                                        <div class="col-md-6">
                                           <input type="text" class="form-control file-upload-info inputfieldform" readonly placeholder="Upload image">
                                           <input type="file" name="img[]" class="file-upload-default form-control" id="fileInput"><br>
                                           <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();">Browse</button>
