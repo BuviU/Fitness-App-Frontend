@@ -1,359 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>eCoaching</title>
-    <!-- plugins:css -->
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
-    <!-- endinject -->
-    <!-- Plugin css for this page -->
-    <!-- End plugin css for this page -->
-    <!-- inject:css -->
-    <!-- endinject -->
-    <!-- Layout styles -->
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <!-- End layout styles -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
-    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
-    <script> 
-      $(function(){
-        $("#baseHeader").load("../../base-header.html"); 
-      });
-      $(function(){
-        $("#sidebar").load("../../sidebar.html"); 
-      });
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>eCoaching</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <!-- End layout styles -->
+  <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+  <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(function () {
+      $("#baseHeader").load("../../base-header.html");
+    });
+    $(function () {
+      $("#sidebar").load("../../sidebar.html");
+    });
   </script>
-  </head>
+</head>
 
-  <body>
-    <div id="baseHeader"></div> 
-      <div class="container-fluid page-body-wrapper">
-        <div id="sidebar"></div>
-        <div class="main-panel">
-          <div class="content-wrapper">           
-            <div class="row">
-              <div class="col-md-9 grid-margin">
-                <!-- <div class="col-md-9 grid-margin stretch-card"> -->
-                <!-- <div class="card">
-                  <div class="card-body">                     -->
-                    <div class="table-responsive">
-                      <table class="table">
-                        <thead>
-                          <tr>
-                           <div class="search-field d-none d-md-block">
-                            <form class="d-flex align-items-center h-100" action="#">  
-                              <div class="input-group" style="border: none;">                                  
-                                <label class="form-control form-check-label1" style="border: none; 
-                                "><img src="../../assets/images/faces/face1.jpg" class="me-2" alt="image" style="border-radius: 50px; width: 40px; height: 40px !important;margin-left: -10px;">Coach Mohan</label>
-                             
-                               </div>  
-                                <div class="input-group" style="border: none; ">                                  
-                                   <label class="form-control form-check-label" style="border: none; 
+<body>
+  <div id="baseHeader"></div>
+  <div class="container-fluid page-body-wrapper">
+    <div id="sidebar"></div>
+    <div class="main-panel">
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-md-8 grid-margin mt-5">
+            <!-- <div class="table-responsive"> -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <div class="search-field d-none d-md-block">
+                      <form class="d-flex align-items-center h-100" action="#">
+                        <div class="input-group" style="border: none;">
+                          <label class="form-control form-check-label1" style="border: none; 
+                                "><img src="../../assets/images/faces/face1.jpg" class="me-2" alt="image"
+                              style="border-radius: 50px; width: 40px; height: 40px !important;margin-left: -10px;">Coach
+                            Mohan</label>
+
+                        </div>
+                        <div class="input-group" style="border: none; ">
+                          <label class="form-control form-check-label" style="border: none; 
                                    font-size: 1.125rem;"><strong>Membership</strong></label>
-                                   <div class="input-group-append">
-                                     <button type="button" class="btn btnlightpurple  btn-fw" style="padding: 10px 30px !important; border-radius: 25px !important; vertical-align: middle !important;">Create New Membership</button>
-                                    </div> 
-                                  </div>
-                                  <div class="input-group">                                   
-                                    <input type="search" class="form-control" placeholder="Search Your Membership Here..." aria-label="Search Membership" aria-describedby="basic-addon2" style="padding: 20px 30px !important; border-radius: 15px !important;">
-                             </div>                             
-                            </form>
-                          </div></tr></thead><br>
-                          <div class="row">
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 58%" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">                                 
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
+                          <div class="input-group-append">
+                            <button type="button" class="btn btnlightpurple  btn-fw"
+                              style="padding: 10px 30px !important; border-radius: 25px !important; vertical-align: middle !important;">Create
+                              New Membership</button>
                           </div>
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">                                  
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-4 stretch-card grid-margin">
-                            <div class="card  card-img-holder ">
-                              <div class="card-body mini-marg">
-                                <div class="video-container">
-                                <video controls class="vid1">
-                                  <source src="your_video.mp4" type="video/mp4">
-                                  Your browser does not support the video tag.
-                              </video></div><br>
-                              <h5><span class="fontbackg" >FRONTEND</span></h5>
-                              <h5>Membership name</h5>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div><br>
-                              <div class="description">   
-                                <div class="row">
-                                  <div class="col-md-4">                            
-                                    <p class="txt2">5 Programs</p>
-                                  </div>
-                                  <div class="col-md-4">                            
-                                  <p class="txt2">17 Workouts</p>
-                                </div>
-                                <div class="col-md-4">                            
-                                  <p class="txt2">331 Users</p>
-                                </div>
-                                </div> 
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>                                                                                                                               
-                        </tbody>
-                      </table>
+                        </div>
+                        <div class="input-group">
+                          <input type="search" class="form-control" placeholder="Search Your Membership Here..."
+                            aria-label="Search Membership" aria-describedby="basic-addon2"
+                            style="padding: 20px 30px !important; border-radius: 15px !important;">
+                        </div>
+                      </form>
                     </div>
-                  <!-- </div>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <div class="row mt-5">
+                    <div class="col-md-6 stretch-card grid-margin">
+                      <div class="card  card-img-holder ">
+                        <div class="card-body mini-marg">
+                          <img src="\assets/images/faces/member-card.png" alt="image" />
+                          <h5 class="mt-3"><span class="fontbackg">TAG</span></h5>
+                          <h5>Membership name</h5>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 58%"
+                              aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div><br>
+                          <div class="description">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p class="txt2">5 Programs</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">17 Workouts</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">331 Users</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 stretch-card grid-margin">
+                      <div class="card  card-img-holder ">
+                        <div class="card-body mini-marg">
+                          <img src="\assets/images/faces/member-card.png" alt="image" />
+                          <h5 class="mt-3"><span class="fontbackg">TAG</span></h5>
+                          <h5>Membership name</h5>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 58%"
+                              aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div><br>
+                          <div class="description">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p class="txt2">5 Programs</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">17 Workouts</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">331 Users</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 stretch-card grid-margin">
+                      <div class="card  card-img-holder ">
+                        <div class="card-body mini-marg">
+                          <img src="\assets/images/faces/member-card.png" alt="image" />
+                          <h5 class="mt-3"><span class="fontbackg">TAG</span></h5>
+                          <h5>Membership name</h5>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 58%"
+                              aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div><br>
+                          <div class="description">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p class="txt2">5 Programs</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">17 Workouts</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">331 Users</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 stretch-card grid-margin">
+                      <div class="card  card-img-holder ">
+                        <div class="card-body mini-marg">
+                          <img src="\assets/images/faces/member-card.png" alt="image" />
+                          <h5 class="mt-3"><span class="fontbackg">TAG</span></h5>
+                          <h5>Membership name</h5>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 58%"
+                              aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div><br>
+                          <div class="description">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p class="txt2">5 Programs</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">17 Workouts</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">331 Users</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 stretch-card grid-margin">
+                      <div class="card  card-img-holder ">
+                        <div class="card-body mini-marg">
+                          <img src="\assets/images/faces/member-card.png" alt="image" />
+                          <h5 class="mt-3"><span class="fontbackg">TAG</span></h5>
+                          <h5>Membership name</h5>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 58%"
+                              aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div><br>
+                          <div class="description">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p class="txt2">5 Programs</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">17 Workouts</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">331 Users</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 stretch-card grid-margin">
+                      <div class="card  card-img-holder ">
+                        <div class="card-body mini-marg">
+                          <img src="\assets/images/faces/member-card.png" alt="image" />
+                          <h5 class="mt-3"><span class="fontbackg">TAG</span></h5>
+                          <h5>Membership name</h5>
+                          <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 58%"
+                              aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div><br>
+                          <div class="description">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p class="txt2">5 Programs</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">17 Workouts</p>
+                              </div>
+                              <div class="col-md-4">
+                                <p class="txt2">331 Users</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </tbody>
+              </table>
+       
+            <!-- </div>
                 </div> -->
-              </div>            
-               <div class="col-md-3 grid-margin stretch-card">
-                <div class="card" style="height: fit-content;">
-               <div class="card-body">
-                    <h4 class="card-title">Add Membership</h4>                    
-                    <form class="forms-sample">
-                      
-                      <div class="form-group">                        
-                        <input type="text" class="form-control inputfieldform" id="program" placeholder="Exercise Name" >
-                      </div>
-                      <div class="form-group">                       
-                        <input type="text" class="form-control inputfieldform" id="exampleInputlName1" placeholder="Video Url" >
-                      </div>
-                      <div class="form-group">                       
-                        <input type="text" class="form-control inputfieldform" id="desscription" placeholder="Description">
-                      </div>                                       
-                     
-                      <!-- <div class="form-group">
+          </div>
+          <div class="col-md-4 grid-margin stretch-card mt-5">
+            <div class="card" style="height: fit-content;">
+              <div class="card-body">
+                <h4 class="card-title">Add Membership</h4>
+                <form class="forms-sample">
+
+                  <div class="form-group">
+                    <input type="text" class="form-control inputfieldform" id="program" placeholder="Exercise Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control inputfieldform" id="exampleInputlName1"
+                      placeholder="Video Url">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control inputfieldform" id="desscription" placeholder="Description">
+                  </div>
+
+                  <!-- <div class="form-group">
                         <input type="file" name="img[]" class="file-upload-default" id="fileInput">
                         <div class="row">
                             <div class="col-md-6">
@@ -368,107 +273,115 @@
                             </div>
                         </div>
                     </div>  -->
-                    <div class="form-group">
-                      <input type="file" name="img[]" class="file-upload-default" id="fileInput">
-                      <div class="input-group col-xs-12">
-                          <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 30px !important; border-radius: 25px !important; border: none;">
-                          <span class="input-group-append">
-                              <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();" >Browse</button>
-                          </span>
-                      </div>
+                  <div class="form-group">
+                    <input type="file" name="img[]" class="file-upload-default" id="fileInput">
+                    <div class="input-group col-xs-12">
+                      <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail"
+                        style="padding: 12px 30px !important; border-radius: 25px !important; border: none;">
+                      <span class="input-group-append">
+                        <button class="file-upload-browse btn1 btn-gradient-primary" type="button"
+                          onclick="$('#fileInput').click();">Browse</button>
+                      </span>
+                    </div>
                   </div>
-                      <div class="form-group">                        
-                        <input type="text" class="form-control inputfieldform" id="program" placeholder="Exercise Name">
-                      </div> 
-                      <div class="form-group">                       
-                        <input type="text" class="form-control inputfieldform" id="exampleInputlName1" placeholder="Video Url">
-                      </div> 
-                      
-                    
-                    <div class="form-group">
-                      <input type="file" name="img[]" class="file-upload-default" id="fileInput">
-                      <div class="input-group col-xs-12">
-                          <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail" style="padding: 12px 30px !important; border-radius: 25px !important; border: none;">
-                          <span class="input-group-append">
-                              <button class="file-upload-browse btn1 btn-gradient-primary" type="button" onclick="$('#fileInput').click();" >Browse</button>
-                          </span>
-                      </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control inputfieldform" id="program" placeholder="Exercise Name">
                   </div>
-                                                                           
-                      <button type="submit" class="btn1 btn-gradient-primary me-2" style="width: 100%; border-radius: 25px;">Save</button>                                          
-                    </form>
+                  <div class="form-group">
+                    <input type="text" class="form-control inputfieldform" id="exampleInputlName1"
+                      placeholder="Video Url">
                   </div>
-                </div>
-              </div>              
+
+
+                  <div class="form-group">
+                    <input type="file" name="img[]" class="file-upload-default" id="fileInput">
+                    <div class="input-group col-xs-12">
+                      <input type="text" class="form-control file-upload-info" disabled placeholder="Add Thumbnail"
+                        style="padding: 12px 30px !important; border-radius: 25px !important; border: none;">
+                      <span class="input-group-append">
+                        <button class="file-upload-browse btn1 btn-gradient-primary" type="button"
+                          onclick="$('#fileInput').click();">Browse</button>
+                      </span>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn1 btn-gradient-primary me-2"
+                    style="width: 100%; border-radius: 25px;">Save</button>
+                </form>
+              </div>
             </div>
           </div>
-          <script>
-            $(document).ready(function() {
-                $('#fileInput').change(function() {
-                    var fileName = $(this).val().split('\\').pop(); // Get the file name without the path
-                    $('.file-upload-info').val(fileName); // Set the file name in the text input
-                });
-            });
-        </script>
-
-            <!-- content-wrapper ends -->
-          <!-- partial:partials/_footer.html -->
-          <footer class="footer">
-            <div class="container-fluid d-flex justify-content-between">
-              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arttricks 2024</span>
-              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"><a href="https://arttricks.com.au/" target="_blank">arttricks.com.au</a></span>
-            </div>
-          </footer>
-          <!-- partial -->
         </div>
-        <!-- main-panel ends -->
       </div>
-      <!-- page-body-wrapper ends -->
-    </div>
-    <!-- container-scroller -->
+      <script>
+        $(document).ready(function () {
+          $('#fileInput').change(function () {
+            var fileName = $(this).val().split('\\').pop(); // Get the file name without the path
+            $('.file-upload-info').val(fileName); // Set the file name in the text input
+          });
+        });
+      </script>
 
-    <script>
-      document.getElementById('thumbnail-input').addEventListener('change', function() {
-          previewThumbnail(this);
-      });
-  
-      function previewThumbnail(input) {
-          var thumbnailPreview = document.getElementById('thumbnail-preview');
-          var file = input.files[0];
-          var reader = new FileReader();
-  
-          reader.onload = function(e) {
-              thumbnailPreview.src = e.target.result;
-          };
-  
-          if (file) {
-              reader.readAsDataURL(file);
-          } else {
-              thumbnailPreview.src = '#';
-          }
+      <!-- content-wrapper ends -->
+      <!-- partial:partials/_footer.html -->
+      <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+          <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arttricks 2024</span>
+          <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"><a href="https://arttricks.com.au/"
+              target="_blank">arttricks.com.au</a></span>
+        </div>
+      </footer>
+      <!-- partial -->
+    </div>
+    <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <script>
+    document.getElementById('thumbnail-input').addEventListener('change', function () {
+      previewThumbnail(this);
+    });
+
+    function previewThumbnail(input) {
+      var thumbnailPreview = document.getElementById('thumbnail-preview');
+      var file = input.files[0];
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        thumbnailPreview.src = e.target.result;
+      };
+
+      if (file) {
+        reader.readAsDataURL(file);
+      } else {
+        thumbnailPreview.src = '#';
       }
+    }
   </script>
 
-    <script src="../..assets/js/jquery-3.3.1.min.js"></script>
-    <script src="../..assets/js/bootstrap.min.js"></script>
-    <script src="../..assets/js/jquery.nice-select.min.js"></script>
-    <script src="../..assets/js/jquery-ui.min.js"></script>
-    <script src="../..assets/js/jquery.slicknav.js"></script>
-    <!-- plugins:js -->
-    <script src="../..assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="../..assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="../..assets/js/jquery.cookie.js" type="text/javascript"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="../..assets/js/off-canvas.js"></script>
-    <script src="../..assets/js/hoverable-collapse.js"></script>
-    <script src="../..assets/js/misc.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="../..assets/js/dashboard.js"></script>
-    <script src="../..assets/js/todolist.js"></script>
-    <!-- End custom js for this page -->
-  </body>
+  <script src="../..assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../..assets/js/bootstrap.min.js"></script>
+  <script src="../..assets/js/jquery.nice-select.min.js"></script>
+  <script src="../..assets/js/jquery-ui.min.js"></script>
+  <script src="../..assets/js/jquery.slicknav.js"></script>
+  <!-- plugins:js -->
+  <script src="../..assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../..assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="../..assets/js/jquery.cookie.js" type="text/javascript"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../..assets/js/off-canvas.js"></script>
+  <script src="../..assets/js/hoverable-collapse.js"></script>
+  <script src="../..assets/js/misc.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page -->
+  <script src="../..assets/js/dashboard.js"></script>
+  <script src="../..assets/js/todolist.js"></script>
+  <!-- End custom js for this page -->
+</body>
+
 </html>
